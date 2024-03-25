@@ -1,0 +1,25 @@
+.otraClase {
+  display: flex;
+  justify-content: space-evenly;
+}
+.aliniamento {
+  display: flex;
+}
+
+.cajaFoto {
+  width: 20%;
+}
+
+.foto {
+  width: 250px;
+}
+
+.cajaTitulo {
+  width: 90%;
+  background-color: aqua;
+  color: antiquewhite;
+}
+
+.imagenCV {
+  width: 200px;
+}
