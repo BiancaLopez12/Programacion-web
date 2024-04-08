@@ -1,0 +1,31 @@
+.aliniamientoDeTitulo {
+  text-align: center;
+  color: antiquewhite;
+}
+.fondoPagina {
+  background-image: url("fondoNuevo.jpg");
+  background-size: cover;
+}
+
+.fondoGrilla {
+  display: grid;
+  /*grid-template-columns: 250px 250px 250px;*/ /*Como generar disposicion de las columnas de una grilla*/
+  /*grid-template-columns: repeat(3, 250px );*/
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /*grid-template-rows: 350px;*/
+  grid-auto-rows: auto;
+  gap: 20px;
+}
+.fotoDinamica {
+  width: 100%;
+  aspect-ratio: 1 / 2; /*puede ser opcional ->  darle estructura a la foto si es widecreen o si es un tipo de retrato*/
+  object-fit: cover;
+  background-color: rgb(35, 52, 75);
+  border-radius: 25px;
+}
+
+.tituloDePelicula {
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgb(35, 52, 75);
+}
