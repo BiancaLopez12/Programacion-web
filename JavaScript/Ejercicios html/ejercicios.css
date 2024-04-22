@@ -1,0 +1,55 @@
+.aliniamiento {
+  display: flex;
+  justify-content: center;
+}
+
+.columnasYfilas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-template-rows: 300px;
+}
+
+.primerEjemplo {
+  display: flex;
+  justify-content: left;
+}
+
+.segundoEjemplo {
+  display: flex;
+  align-items: end;
+}
+
+.clase {
+  display: grid;
+  gap: 20px;
+}
+
+.otraClase {
+  display: grid;
+  grid-template-columns: 150px 250px 350px;
+  grid-template-rows: 50px 100px 250px;
+}
+
+
+.fotoDinamica {
+  width: 150px;
+  aspect-ratio:  1 / 1;
+  object-fit: cover;
+  background-color: aqua;
+  border-radius: 25px;
+  justify-content: center;
+
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); 
+  grid-auto-rows: 300px;
+}
+
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
