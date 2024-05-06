@@ -1,0 +1,18 @@
+.alineadoPrincipal {
+  display: flex;
+  justify-content: center;
+}
+
+.alineadoVertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarjeta {
+  border: 2px solid rgb(29, 38, 170);
+  background-color: rgb(197, 179, 247);
+  width: 500px;
+  height: 450px;
+  overflow: scroll;
+}
