@@ -15,7 +15,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #50cceeaa);
 }
 
 @keyframes logo-spin {
@@ -38,5 +38,29 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #928888;
+}
+
+.profile-picture-container {
+  display: flex;
+  justify-content: center; /* Centra la imagen horizontalmente */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.profile-picture {
+  width: 120px; /* Tamaño de la imagen */
+  height: 120px; /* Tamaño de la imagen */
+  border-radius: 50%; /* Forma de burbuja */
+  object-fit: cover; /* Asegura que la imagen se ajuste sin distorsionar */
+  border: 3px solid #583872; /* Opcional: Borde blanco alrededor de la imagen */
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
